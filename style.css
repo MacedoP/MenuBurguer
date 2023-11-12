@@ -1,0 +1,67 @@
+/*Versao mobil first*/
+@charset "UTF=8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html{
+
+    background-color: rgb(155, 150, 150);
+}
+header{
+    background-color: rgb(199, 191, 191);
+}
+i#burguer{
+    background-color: rgb(72, 70, 70);
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+i#burguer:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+header > h1{
+    padding: 10px;
+    text-align: center;
+}
+menu{
+    display: none;
+
+}
+menu > ul{
+    list-style-type: none;
+}
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(86, 83, 83);
+    color: white;
+    text-align: center;
+    border-top: 2px solid rgb(143, 141, 141);
+} 
+a:hover{
+    background-color: rgb(165, 156, 156);
+}
+.conteiner_conteudo{
+    width: 90vw;
+    background-color: #fff;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.conteiner_conteudo > h2{
+    padding-bottom: 10px;
+}
+.conteudo > p {
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-indent: 20px;
+}
